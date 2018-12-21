@@ -1,0 +1,35 @@
+{
+  "name": "erikyuzwa",
+  "version": "1.0.0",
+  "description": "ErikYuzwa calling card",
+  "main": "./bin/card.js",
+  "bin": {
+    "erikyuzwa": "./bin/card.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikyuzwa/erikyuzwa-card.git"
+  },
+  "keywords": [
+    "Erik",
+    "Yuzwa",
+    "erikyuzwa"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erikyuzwa/erikyuzwa-card/issues"
+  },
+  "homepage": "https://github.com/erikyuzwa/erikyuzwa-card#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-leankit": "^4.5.0"
+  }
+}
